@@ -13,5 +13,6 @@ public class BaseActivity extends Activity{
     public void setContentView(int layoutResID) {
         super.setContentView(layoutResID);
         ButterKnife.inject(this);
+
     }
 }
